@@ -9,6 +9,10 @@ body {
     color: #aeaeae;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
 aside ul, main ul {
     list-style: none;
 }
@@ -24,7 +28,29 @@ main img {
 }
 
 .sticky-nav {
+    display: flex;
+    flex-direction: column;
     position: sticky;
     top: 0;
     height: 100vh;
+    padding: 2em;
+    gap: 1em;
+}
+
+.sticky-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img-grid {
+    padding: 2em;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.img-grid ul li {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    break-inside: avoid;
 }

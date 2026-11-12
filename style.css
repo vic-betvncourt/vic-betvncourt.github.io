@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #aeaeae;
+}
+
+aside ul, main ul {
+    list-style: none;
+}
+
+main img {
+    width: 100%;
+    display: block;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
